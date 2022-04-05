@@ -42,7 +42,7 @@ class Category extends Component {
   }
 
   static getBackgroundStyle(url) {
-    return `style="background: #fff url(${url}) repeat left;"`;
+    return `style="background: #fff url(${url}) repeat left; background-size: 400px 667px;"`;
   }
 
   static getAll(tabs) {
@@ -123,12 +123,12 @@ class Tabs extends Component {
           right: 100%;
           background: #fff url("../img/bg-1.gif") repeat left;
           transition: all .6s;
-          animation: scroll 25s ease-in-out infinite;
+          /*animation: scroll 25s ease-in-out infinite;*/
       }
 
       @keyframes scroll {
           50% {
-              background-position-x: -240px;
+              background-position-x: -100px;
           }
       }
 

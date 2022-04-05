@@ -1,0 +1,7 @@
+purple: #b67aff
+red: #ff6e6e
+blue: #6e7dff
+orange: #ff956e
+green: #38ff95
+cyan: #0bc1e9
+magenta: #cc5c9f

@@ -1,18 +1,17 @@
 const CONFIG = new Config({
   crypto: {
-    coin: 'ETH',
+    coin: 'BTC',
     currency: 'USD',
     refreshIn: 10
   },
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Toronto, Canada',
     scale: 'C'
   },
   clock: 'h:i p',
   search: {
     engines: {
       g: ['https://google.com/search?q=', 'Google'],
-      i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
       w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
@@ -21,40 +20,46 @@ const CONFIG = new Config({
   disabled: [],
   tabs: [
     {
-      name: 'boards',
-      background_url: 'src/img/banners/bg-1.gif',
+      name: 'Focus',
+      background_url: 'src/img/banners/sakura.png',
       categories: [{
-        name: 'fun',
+        name: 'media',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            name: '',
+            url: 'https://www.youtube.com',
+            icon: 'brand-youtube',
+            icon_color: '#ff6e6e'
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
-            icon: 'leaf',
-            icon_color: '#64876d'
+            name: '',
+            url: 'https://twitch.tv/',
+            icon: 'brand-twitch',
+            icon_color: '#b67aff'
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
-            icon: 'book'
+            name: '',
+            url: 'https://open.spotify.com/',
+            icon: 'brand-spotify',
+            icon_color: '#38ff95'
           },
           {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
+            name: '',
+            url: 'https://netflix.com',
+            icon: 'brand-netflix',
+            icon_color: '#ff6e6e'
           },
           {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
+            name: '',
+            url: 'https://disneyplus.com',
+            icon: 'device-tv',
+            icon_color: '#6e7dff'
           },
           {
-            name: '/a/',
-            url: 'https://4chan.org/a/'
+            name: '',
+            url: 'https://beta.crunchyroll.com/',
+            icon: 'circle',
+            icon_color: '#ff956e'
           }
         ]
       },
