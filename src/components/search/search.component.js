@@ -26,7 +26,7 @@ class Search extends Component {
           visibility: hidden;
           top: -100%;
           backdrop-filter: blur(5px);
-          transition: all .2s ease-in-out;
+          
       }
 
       #search.active {

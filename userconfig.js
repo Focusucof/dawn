@@ -17,7 +17,7 @@ const CONFIG = new Config({
       w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
     }
   },
-  disabled: [],
+  disabled: ['todo-list'],
   tabs: [
     {
       name: 'Focus',
@@ -64,15 +64,25 @@ const CONFIG = new Config({
         ]
       },
       {
-        name: 'Comfy',
+        name: 'Social',
         links: [
           {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            name: '',
+            url: 'https://twitter.com',
+            icon: 'brand-twitter',
+            icon_color: '#0bc1e9'
           },
           {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
+            name: '',
+            url: 'https://www.instagram.com/',
+            icon: 'brand-instagram',
+            icon_color: '#ffc29c'
+          },
+          {
+            name: '',
+            url: 'https://tiktok.com/',
+            icon: 'brand-tiktok',
+            icon_color: '#ff4f71'
           }
         ]
       },
