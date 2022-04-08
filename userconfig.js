@@ -113,7 +113,7 @@ const CONFIG = new Config({
     },
     {
       name: 'music',
-      background_url: 'src/img/banners/bg-2.gif',
+      background_url: 'src/img/banners/fence.jpg',
       categories: [
         {
           name: 'music services',
@@ -152,7 +152,7 @@ const CONFIG = new Config({
     },
     {
       name: 'tech',
-      background_url: 'src/img/banners/bg-3.gif',
+      background_url: 'src/img/banners/your-name.jpg',
       categories: [
         {
           name: 'subreddits',
