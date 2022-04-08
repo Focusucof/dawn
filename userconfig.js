@@ -116,36 +116,19 @@ const CONFIG = new Config({
       background_url: 'src/img/banners/fence.jpg',
       categories: [
         {
-          name: 'music services',
+          name: 'portfolios',
           links: [
             {
-              url: 'https://soundcloud.com/',
-              icon: 'brand-soundcloud',
-              icon_color: '#c57750'
-            },
-            {
-              url: 'https://youtu.be/',
-              icon: 'brand-youtube',
-              icon_color: '#996767'
-            },
-            {
-              url: 'https://r-a-d.io/',
-              icon: 'radio'
+              url: 'https://www.behance.net/',
+              icon: 'brand-behance',
+              icon_color: '#6e7dff'
             },
           ]
         },
         {
-          name: 'music boards',
+          name: '',
           links: [
-            {
-              name: '/music/',
-              url: 'https://lainchan.org/music/',
-              icon: 'disc'
-            },
-            {
-              name: '/mu/',
-              url: 'https://boards.4channel.org/mu/',
-            }
+            
           ]
         }
       ]
@@ -155,7 +138,7 @@ const CONFIG = new Config({
       background_url: 'src/img/banners/your-name.jpg',
       categories: [
         {
-          name: '',
+          name: 'Repositories',
           links: [
             {
               name: '',
@@ -168,16 +151,6 @@ const CONFIG = new Config({
               url: 'https://hub.docker.com/',
               icon: 'brand-docker',
               icon_color: '#0bc1e9'
-            },
-            {
-              name: '',
-              url: '',
-              icon: 'keyboard',
-              icon_color: '#a57685'
-            },
-            {
-              name: '',
-              url: ''
             }
           ]
         },
@@ -189,14 +162,6 @@ const CONFIG = new Config({
               url: 'https://developer.mozilla.org/en-US/',
               icon: 'browser',
               icon_color: '#fff'
-            },
-            {
-              name: 'dev.to',
-              url: 'https://dev.to'
-            },
-            {
-              name: 'mataroa.blog',
-              url: 'https://collection.mataroa.blog',
             }
           ]
         },
