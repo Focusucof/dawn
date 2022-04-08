@@ -112,7 +112,7 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'music',
+      name: 'create',
       background_url: 'src/img/banners/fence.jpg',
       categories: [
         {
@@ -151,39 +151,44 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'tech',
+      name: 'dev',
       background_url: 'src/img/banners/your-name.jpg',
       categories: [
         {
-          name: 'subreddits',
+          name: '',
           links: [
             {
-              name: 'r/startpages/',
-              url: 'https://www.reddit.com/r/startpages/'
+              name: '',
+              url: 'https://github.com/',
+              icon: 'brand-github',
+              icon_color: '#fff'
             },
             {
-              name: 'r/unixporn',
-              url: 'https://www.reddit.com/r/unixporn/'
+              name: '',
+              url: 'https://hub.docker.com/',
+              icon: 'brand-docker',
+              icon_color: '#0bc1e9'
             },
             {
-              name: 'r/mechkbds/',
-              url: 'https://www.reddit.com/r/MechanicalKeyboards/',
+              name: '',
+              url: '',
               icon: 'keyboard',
               icon_color: '#a57685'
             },
             {
-              name: 'r/programming',
-              url: 'https://www.reddit.com/r/programming/'
+              name: '',
+              url: ''
             }
           ]
         },
         {
-          name: 'blogs',
+          name: 'docs',
           links: [
             {
-              name: 'fasterthanli',
-              url: 'https://fasterthanli.me/articles',
-              icon: 'anchor'
+              name: '',
+              url: 'https://developer.mozilla.org/en-US/',
+              icon: 'browser',
+              icon_color: '#fff'
             },
             {
               name: 'dev.to',
@@ -196,19 +201,29 @@ const CONFIG = new Config({
           ]
         },
         {
-          name: 'misc',
+          name: 'localhost',
           links: [
             {
-              name: 'post office',
-              url: 'http://afternoon.dynu.com/letterbox.html',
-              icon: 'mailbox'
+              name: '80',
+              url: 'http://localhost/',
+              icon: ''
             },
             {
-              name: 'rust docs',
-              url: 'https://doc.rust-lang.org/book/',
-              icon: 'notebook',
-              icon_color: '#977a3a'
-            }
+              name: '3000',
+              url: 'http://localhost:3000/',
+            },
+            {
+              name: '8000',
+              url: 'http://localhost:8000/',
+            },
+            {
+              name: '1337',
+              url: 'http://localhost:1337/',
+            },
+            {
+              name: '8080',
+              url: 'http://localhost:8080/',
+            },
           ]
         }
       ]
