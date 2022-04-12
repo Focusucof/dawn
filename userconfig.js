@@ -14,7 +14,8 @@ const CONFIG = new Config({
       g: ['https://google.com/search?q=', 'Google'],
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
-      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
+      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia'],
+      gh: ['https://github.com/', 'GitHub']
     }
   },
   disabled: ['todo-list'],
