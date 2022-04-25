@@ -84,7 +84,12 @@ const CONFIG = new Config({
             url: 'https://tiktok.com/',
             icon: 'brand-tiktok',
             icon_color: '#ff4f71'
-          }
+          },
+          {
+            url: 'https://www.behance.net/',
+            icon: 'brand-behance',
+            icon_color: '#6e7dff'
+          },
         ]
       },
       {
@@ -113,17 +118,30 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'create',
+      name: 'val',
       background_url: 'src/img/banners/fence.jpg',
       categories: [
         {
-          name: 'portfolios',
+          name: 'news',
           links: [
             {
-              url: 'https://www.behance.net/',
-              icon: 'brand-behance',
-              icon_color: '#6e7dff'
+              url: 'https://vlr.gg/',
+              icon: 'tournament',
+              name: 'vlr.gg',
+              icon_color: '#ff6e6e'
             },
+            {
+              url: 'https://www.reddit.com/r/valorantcompetitive/',
+              icon: 'brand-reddit',
+              icon_color: '#ff956e',
+              name: 'r/valorantcompetitive'
+            },
+            {
+              url: 'https://playvalorant.com/en-us/news/',
+              icon: 'news',
+              icon_color: '#b67aff',
+              name: 'playvalorant.com'
+            }
           ]
         },
         {
